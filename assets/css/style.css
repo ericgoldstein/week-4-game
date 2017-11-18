@@ -32,7 +32,7 @@ div.header, div.instructions {
 }
 .numberToMatch, .winsAndLosses {
 	float: left;
-	width: 15%;
+	width: 20%;
 	height: 70px;
 }
 .userTotal {
@@ -57,4 +57,7 @@ div.header, div.instructions {
 }
 #yellow {
 	color: yellow;
+}
+h1 {
+	height: 20px;
 }

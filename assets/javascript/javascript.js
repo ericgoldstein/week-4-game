@@ -27,13 +27,13 @@ $( document ).ready(function() {
 	}
 	function yay() {
 		alert("You Have Beaten the Game!!");
-			wins==;
+			wins++;
 			$('#numberWins').text(wins);
 			reset()
 	}
 	function loser() {
 		alert("You Have Been Beaten By the Game.....");
-		losses==;
+		losses++;
 		$('#numberLosses').text(losses);
 		reset()
 	}
@@ -80,4 +80,5 @@ $( document ).ready(function() {
 			else if ( userTotal > Random) {
 				loser();
 			}
-})
+	});
+});
