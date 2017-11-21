@@ -34,6 +34,7 @@ div.header, div.instructions {
 	float: left;
 	width: 20%;
 	height: 70px;
+	text-align: center;
 }
 .userTotal {
 	width: 15%;
@@ -60,4 +61,7 @@ div.header, div.instructions {
 }
 h1 {
 	height: 20px;
+}
+.instructions {
+	background-color: lightgray;
 }
